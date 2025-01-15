@@ -1,0 +1,462 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --color_background: #0C0C0C;
+    --color_background_item:#3F3F3F;
+    --color_text_green: #0E856F;
+    --color_text_orange: #FF7D25;
+    background-image: url(./images/lar_da_madeira/bg.png);
+    background-repeat: repeat-y repeat-x;
+    background-color: black;
+    scroll-behavior: smooth;
+    font-family: "Syne", serif;
+    color: #fff;
+}
+
+/*cabeçalho*/
+
+.container{
+    position: sticky;
+    top: 0;
+    height: 9vh;
+    background-color: var(--color_background);
+    display: flex;
+}
+
+/*menu*/
+.menu{
+    max-width: 90vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 88px;
+}
+
+.menu a img{
+    height: 60px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li{
+    margin-left: 2vw;
+}
+   /*svg_n_animação*/
+.container .menu nav ul li svg{
+    height: 40px;
+    fill: rgb(255, 255, 255);
+}
+
+.container .menu nav ul li svg:hover{
+    fill: #868686;
+    transition: 0.5s;
+}
+
+/*about*/
+.about {
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    height: 100vh;
+    background-image: url(./images/inicio/1200px-Outer_Wilds_Logo.png);
+    background-repeat: no-repeat;
+}
+
+.about article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 390px;
+    width: 100%;
+    margin-left: 200px;
+    
+}
+
+.about article img{
+    height: 199px;
+    width: 410px;
+}
+
+.about article h2{
+    font-family: "Jockey One", serif;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+    color: var(--color_text_green);
+    margin-bottom: -2px;
+}
+
+/*twin*/
+.twin{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-inline: 30px;
+    height: 100vh;
+}
+
+.twin .twin_figure{
+    display: flex;
+    max-height: 60vh;
+    height: 100%;
+}
+
+.twin article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 390px;
+    width: 100%;
+    margin-right: 0px;
+    
+}
+
+.twin article h2{
+    font-family: "Jockey One", serif;
+    line-height: 50px;
+    font-size: 40px;
+    color: var(--color_text_orange);
+    margin-bottom: -2px;
+}
+
+/*timber*/
+.timber{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-inline: 30px;
+    height: 100vh;
+}
+
+.timber .timber_figure{
+    display: flex;
+    max-height: 60vh;
+    height: 100%;
+}
+
+.timber article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 390px;
+    width: 100%;
+    margin-right: 1vw;
+    
+}
+
+.timber article h2{
+    font-family: "Jockey One", serif;
+    line-height: 50px;
+    font-size: 40px;
+    color: var(--color_text_orange);
+    margin-bottom: -2px;
+}
+
+.timber .timber_moon{
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.timber .timber_moon img{
+    height: 5vh;
+}
+
+.timber .timber_moon_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.timber_moon_text h3,p{
+    margin: 0;
+}
+
+.timber_moon_text h3{
+    color: var(--color_text_green);
+}
+
+/*brittle*/
+.brittle{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-inline: 30px;
+    height: 100vh;
+}
+
+.brittle .brittle_figure{
+    display: flex;
+    max-height: 60vh;
+    height: 100%;
+}
+
+.brittle article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 390px;
+    width: 100%;
+    margin-right: 0px;
+    
+}
+
+.brittle article h2{
+    font-family: "Jockey One", serif;
+    line-height: 50px;
+    font-size: 40px;
+    color: var(--color_text_orange);
+    margin-bottom: -2px;
+}
+
+.brittle .brittle_moon{
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.brittle .brittle_moon img{
+    height: 5vh;
+}
+
+.brittle .brittle_moon_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.brittle_moon_text h3,p{
+    margin: 0;
+}
+
+.brittle_moon_text h3{
+    color: var(--color_text_green);
+}
+
+/*deep*/
+.deep{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-inline: 30px;
+    height: 100vh;
+}
+
+.deep .deep_figure{
+    display: flex;
+    max-height: 60vh;
+    height: 100%;
+}
+
+.deep article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 390px;
+    width: 100%;
+    margin-right: 0px;
+    
+}
+
+.deep article h2{
+    font-family: "Jockey One", serif;
+    line-height: 50px;
+    font-size: 40px;
+    color: var(--color_text_orange);
+    margin-bottom: -2px;
+}
+
+.deep .deep_moon{
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.deep .deep_moon img{
+    height: 5vh;
+}
+
+.deep .deep_moon_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.deep_moon_text h3,p{
+    margin: 0;
+}
+
+.deep_moon_text h3{
+    color: var(--color_text_green);
+}
+
+/*dark*/
+.dark{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-inline: 30px;
+    height: 100vh;
+}
+
+.dark .dark_figure{
+    display: flex;
+    max-height: 60vh;
+    height: 100%;
+}
+
+.dark article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 390px;
+    width: 100%;
+    margin-right: 0px;
+    
+}
+
+.dark article h2{
+    font-family: "Jockey One", serif;
+    line-height: 50px;
+    font-size: 40px;
+    color: var(--color_text_orange);
+    margin-bottom: -2px;
+}
+
+.dark .dark_moon{
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.dark .dark_moon img{
+    height: 5vh;
+}
+
+.dark .dark_moon_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+}
+
+.dark_moon_text h3,p{
+    margin: 0;
+}
+
+.dark_moon_text h3{
+    color: var(--color_text_green);
+}
+
+h3{
+    font-family: "Jockey One", serif;
+}
+/*footer*/
+footer{
+    background-color: var(--color_background);
+    height: 30vh;
+    color: var(--color_background_item);
+    padding: 10px;
+}
+
+footer .footer_top{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 5vw;
+}
+
+/*footer_aventureiro*/
+.footer_aventureiro form{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_aventureiro form h3{
+    margin-left: 15px;
+}
+
+.footer_aventureiro form input{
+    border: none;
+    background-color: #060606;
+    font-family: "Syne", serif;
+    margin-bottom: 8px;
+    border-radius: 25px;
+    color: var(--color_background_item);
+    resize: none;
+    padding: 8px 20px;
+}
+
+.footer_aventureiro form input:focus{
+    outline-width: 0px;
+}
+
+.footer_aventureiro form button{
+    background-color: #060606;
+    font-family: "syne", serif;
+    border: none;
+    border-radius: 25px;
+    padding: 8px;
+    width: 100px;
+    color: var(--color_background_item);
+    cursor: pointer;
+}
+
+.footer_aventureiro form button:hover{
+    background-color: #141414;
+    color: #060606;
+    transition: all 0.2s cubic-bezier(.52,.14,.27,.98);
+}
+
+.footer_aventureiro form button:active{
+    background-color: #000000;
+    color: var(--color_background_item);
+    transition: all 0.2s cubic-bezier(.52,.14,.27,.98);
+}
+
+/*footer_eye*/
+.footer_eye{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_eye .footer_eye_figure svg{
+    fill: var(--color_background_item);
+    height: 15vh;
+}
+
+.footer_eye .footer_eye_social a{
+    text-decoration: none;
+}
+
+.footer_eye .footer_eye_social svg{
+    fill: var(--color_background_item);
+    height: 2vh;
+}
+
+.footer_eye .footer_eye_social {
+    display: flex;
+    justify-content: space-around;
+    max-width: 10vw;
+    width: 100%;
+}
+
+/*footer_coodenates*/
+
+.footer_bottom{
+    margin-top: 40px;
+    text-align: center;
+}
+
+
